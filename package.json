@@ -14,7 +14,13 @@
   "scripts": {
     "build-lib": "vue build --target lib --name vue-btn-simple ./src/install.js"
   },
-  "keywords": [],
-  "author": "ajijons",
-  "license": "ISC"
+  "keywords": [
+    "learn npm package",
+    "vuejs",
+    "button"
+  ],
+  "author": "ajisyahroni",
+  "repository": "https://github.com/ajisyahroni/vue-btn-simple.git",
+  "bugs": "https://github.com/ajisyahroni/vue-btn-simple/issues",
+  "license": "MIT"
 }
