@@ -1,0 +1,20 @@
+{
+  "name": "vue-btn-simple",
+  "version": "1.0.0",
+  "description": "simple btn just for learn",
+  "private": false,
+  "main": "./dist/vue-btn-simple.common.js",
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
+  "scripts": {
+    "build-lib": "vue build --target lib --name vue-btn-simple ./src/install.js"
+  },
+  "keywords": [],
+  "author": "ajijons",
+  "license": "ISC"
+}
