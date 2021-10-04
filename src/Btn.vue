@@ -1,5 +1,5 @@
 <template>
-  <button><slot></slot></button>
+  <button @click="$emit('click')"><slot></slot></button>
 </template>
 
 <script>
@@ -8,7 +8,10 @@ export default {};
 
 <style scoped>
 button {
-  color: red;
-  background-color: blue;
+  color: white;
+  background-color: peru;
+}
+.rounded {
+  border-radius: 10px;
 }
 </style>
